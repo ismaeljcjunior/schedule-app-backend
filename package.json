@@ -5,16 +5,23 @@
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.19",
+    "@types/node-schedule": "^2.1.1",
     "dotenv": "^16.3.1",
     "nodemon": "^3.0.1",
     "prisma": "^5.4.2",
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@prisma/client": "^5.4.2",
+    "@types/bcrypt": "^5.0.0",
     "@types/cors": "^2.8.14",
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "date-fns": "^2.30.0",
+    "express": "^4.18.2",
+    "node-schedule": "^2.1.1",
+    "venom-bot": "^5.0.21"
   },
   "scripts": {
     "startDev": "nodemon ./src/server.ts"

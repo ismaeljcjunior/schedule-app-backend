@@ -4,6 +4,7 @@ import bodyParser from 'body-parser'
 import cors from 'cors'
 import { appRoutes } from './routes/appRoutes'
 dotenv.config()
+import './services/queryNotify/queryNotify';
 
 const app: Express = express()
 const port = process.env.PORTDEV
